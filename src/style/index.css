@@ -1,20 +1,55 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
-* {
-  box-sizing: border-box;
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3b5998;
+  color: white;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.login {
+  align-self: center;
+  background-color: #42b72a;
+  padding: 1px;
+  margin-left: 5px;
+}
+
+.join {
+  align-self: center;
+}
+
+main {
+  width: 981px;
+}
+
+.desc {
+  margin-left: 200px;
+}
+
+.pic {
+  display: flex;
+  margin-left: 160px;
+}
+
+figure {
+  background-color: white;
+}
+
+img,
+figcaption {
+  text-align: center;
+}
+
+button {
+  margin-top: 100px;
+  margin-bottom: 10px;
 }

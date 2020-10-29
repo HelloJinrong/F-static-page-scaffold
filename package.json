@@ -7,8 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html --open",
-    "lint": "eslint \"src/\" --cache --fix --format table",
-    "format": "prettier --write \"src/**/*.{js,css}\""
+    "lint": "eslint \"src/\" --cache --fix --format table"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
